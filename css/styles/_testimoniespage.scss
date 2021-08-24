@@ -113,3 +113,24 @@
     background-color: rgba($mediumblue, 0.5);
 
 }
+
+
+
+
+@media (min-width: 0px) and (max-width: 600px) {
+
+    .testimonies-page {
+
+        .__title-bar-center {
+            width: 100%;
+            text-align: center;
+            padding-left: 0;
+        }
+        
+        
+
+    }
+
+   
+
+}

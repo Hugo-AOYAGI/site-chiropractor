@@ -146,3 +146,23 @@
     width: 18em;
 
 }
+
+
+
+@media (min-width: 0px) and (max-width: 600px) {
+
+    .chiro-page {
+
+        .__title-bar-right {
+            width: 100%;
+            margin-left: 0;
+            padding-left: 0;
+            text-align: center;
+        }
+        
+
+    }
+
+   
+
+}

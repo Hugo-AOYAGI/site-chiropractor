@@ -173,7 +173,7 @@
 
 
 
-@media (min-width: 0px) and (max-width: 1000px) {
+@media (min-width: 600px) and (max-width: 1000px) {
     
     .about-page {
 
@@ -216,4 +216,100 @@
 
     }
 
+}
+
+
+
+@media (min-width: 100px) and (max-width: 600px) {
+
+    .about-page {
+
+        .__title-bar {
+            width: 100%;
+            padding-left: 0;
+            padding-right: 0;
+            text-align: center;
+
+            margin-bottom: 0em;
+        }
+
+        .__content {
+
+                flex-direction: column-reverse;
+
+            
+            
+            .__abouttext-container {
+                width: 100%;
+
+            }
+
+            .__career {
+
+                width: 100%;
+
+            }
+
+        }
+
+        .blue-rect-1 {
+            width: 50% !important;
+            margin-left: 50% !important;
+        }
+
+
+    }
+
+    
+
+
+    
+.timeline {
+
+    &:first-child {
+        margin-top: 5em;
+    }
+
+    .__event {
+        display: flex;
+        margin-top: 0.75em;
+        font-size: 1.2em;
+
+        
+    }
+
+    .__event-text {
+        height: fit-content;
+        max-width: 70%;
+        // border-bottom: 3px solid $darkblue;
+        // color: $darkblue;
+        background-color: $mediumblue;
+        padding: 0.2em 0.4em 0.2em 0.4em;
+        color: white;
+    }
+
+    .__date {
+        margin-left: 1em;
+        margin-right: 1em;
+
+
+        &::before {
+            margin-left: 0.6em;
+        }
+
+    }
+
+    .__date {
+
+        &::after {
+            margin-left: 1.15em;
+            
+        }
+        
+    }
+
+}
+
+
+   
 }

@@ -10,7 +10,7 @@ body {
     padding: 0;
     margin: 0;
     background-color: $lightbeige;
-    overflow-x: hidden;
+    
 
     font-size: 100%;
 
@@ -27,6 +27,18 @@ a:visited {
     text-decoration: inherit;
     color: inherit;
     cursor: pointer;
+}
+
+.main-frame {
+    overflow-x: hidden;
+    position: relative;
+    width: 100%;
+}
+
+.section {
+
+    position: relative;
+
 }
 
 
