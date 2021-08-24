@@ -252,6 +252,12 @@
   }
 }
 
+@media (min-width: 0px) and (max-width: 600px) {
+  .homepage {
+    height: 95vh;
+  }
+}
+
 .upper-menu-btn {
   position: absolute;
   right: 1em;
@@ -472,7 +478,7 @@
 
 .white-rect-1 {
   position: absolute;
-  background-color: rgba(255, 255, 255, 0.3);
+  background-color: rgba(255, 255, 255, 0.4);
   width: 10em;
   height: 80%;
   z-index: -10;
@@ -565,6 +571,10 @@
   }
   .timeline .__date::after {
     margin-left: 1.15em;
+  }
+  .white-rect-1 {
+    height: 60%;
+    margin-top: 6em;
   }
 }
 
@@ -694,6 +704,32 @@
     padding-left: 0;
     text-align: center;
   }
+  .chiro-page .__content .__introduction {
+    width: 80%;
+    margin-top: 0;
+  }
+  .upsides-div {
+    width: calc(100% - 2em);
+    border-left: none;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .upsides-div .__header {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .upside {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .upside .__icon {
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
 
 .testimonies-page {
@@ -785,6 +821,32 @@
     width: 100%;
     text-align: center;
     padding-left: 0;
+  }
+  .testimonies-page .__testimonies {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .testimony {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .white-rect-2 {
+    width: 8em;
+    height: 35%;
+    left: 2em;
+    margin-top: 0em;
+  }
+  .white-rect-3 {
+    width: 8em;
+    height: 30%;
+    right: 2em;
+    margin-top: 15em;
   }
 }
 
@@ -887,6 +949,27 @@
   .maps {
     width: 100%;
     border: none;
+  }
+  .info-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .info-row .__location {
+    width: 50%;
+    margin-top: 2em;
+    padding-top: 2em;
+    border-top: 1px solid #285085;
+  }
+  .info-row .__schedule {
+    width: 50%;
+    margin-top: 2em;
+    padding-top: 2em;
+    border-top: 1px solid #285085;
   }
 }
 

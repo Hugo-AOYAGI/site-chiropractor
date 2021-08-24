@@ -127,8 +127,52 @@
             padding-left: 0;
         }
         
-        
+        .__testimonies {
 
+            display: flex;
+            flex-direction: column;
+            // flex-wrap: wrap;
+            // justify-content: center;
+            
+            // height: 80%;
+            // width: 100%;
+            // padding-top: 3em;
+    
+    
+        }
+
+    }
+
+    .testimony {
+
+        width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+    .white-rect-2 {
+
+        width: 8em;
+        height: 35%;
+    
+        left: 2em;
+
+        margin-top: 0em;
+
+    }
+    
+    .white-rect-3 {
+
+        width: 8em;
+        height: 30%;
+    
+        right: 2em;
+
+        margin-top: 15em;
+
+    
     }
 
    
