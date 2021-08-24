@@ -1,0 +1,115 @@
+.testimonies-page {
+
+    height: fit-content;
+
+    .__title-bar-center {
+
+        margin-top: 5em;
+        opacity: 0.9;
+        background-color: $darkblue;
+    
+        width: fit-content;
+        padding-left: 2em;
+        padding-right: 2em;
+
+        margin-left: auto;
+        margin-right: auto;
+        
+
+        color: white;
+        line-height: 2.5em;
+        text-align: left;
+        vertical-align: center;
+        font-size: 1.65em;
+
+        font-weight: 600;
+
+    
+    }
+
+    .__testimonies {
+
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        height: 80%;
+        width: 100%;
+        padding-top: 3em;
+
+
+    }
+
+
+}
+
+.testimony {
+
+    width: 25%;
+    margin: 1em;
+    height: fit-content;
+    padding-bottom: 2em;
+
+    background-color: white;
+
+    box-shadow: 2px 2px 5px rgba(black, 0.3);
+
+    .__text {
+
+        font-size: 1.15em;
+        margin: 1em 1em 0em 1em;
+        padding: 1em;
+
+        // border-top: 1px solid $darkblue;
+    
+
+    }
+
+    .__author {
+
+        font-size: 1.25em;
+        margin-left: 3em;
+        font-weight: 600;
+
+        color: $darkblue;
+    }
+
+
+}
+
+
+.white-rect-2 {
+
+    position: absolute;
+
+    width: 50%;
+    height: 8em;
+
+    left: 0;
+
+    margin-top: 2em;
+
+
+    z-index: -10;
+
+    background-color: rgba($mediumblue, 0.5);
+
+
+}
+
+.white-rect-3 {
+
+    position: absolute;
+
+    width: 50%;
+    height: 8em;
+
+    right: 0;
+
+    margin-top: 14em;
+
+    z-index: -10;
+
+    background-color: rgba($mediumblue, 0.5);
+
+}

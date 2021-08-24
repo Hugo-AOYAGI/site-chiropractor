@@ -1,0 +1,423 @@
+
+
+
+.homepage {
+    height: 100vh;
+}
+
+.bg-image {
+    position: absolute;
+    height: 100vh;
+    width: 50vw;
+    z-index: -1;
+    background: center / cover url("/assets/banner.jpg");
+}
+
+
+.title-box {
+
+    position: absolute;
+
+    width: 100%;
+    height: 12em;
+    
+    margin-top: 5em;
+
+    
+    .__title-div-left {
+
+        position: absolute;
+
+        background-color: $darkblue;
+        opacity: 0.8;
+        width: 62%;
+        height: 80%;
+
+
+    }
+
+    .__title-div-right {
+
+        position: absolute;
+        
+        right: 0;
+        bottom: 0;
+
+        background-color: $darkblue;
+        opacity: 0.8;
+        width: 62%;
+        height: 80%;
+
+
+    }
+
+    .__title-text {
+
+        position: absolute;
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        left: 38%;
+        top: 20%;
+
+        width: 24%;
+        height: 80%;
+
+        padding-top: .75em;
+
+        color: white;
+
+        .__row {
+            font-weight: 200;
+            font-size: 2.5em;
+            text-transform: uppercase;
+        }
+
+        .__row-2 {
+            letter-spacing: .05em;
+        }
+
+        .__subtitle {
+            position: absolute;
+            top: 72%;
+            font-size: 1.5em;
+        }
+
+    }
+
+}
+
+.rdv-btn {
+
+    position: absolute;
+
+    border: .15em solid $lightbeige;
+    background-color: $mediumblue;
+
+    left: 0;
+    right: 0;
+    top: 65%;
+    margin: auto;
+    width: fit-content;
+    
+    padding: .5em 1.5em .5em 1.5em;
+
+    text-align: center;
+    font-size: 1.5em;
+    color: white;
+
+    transition: all 0.3s;
+
+    cursor: pointer;
+
+    &:hover {
+        background-color: $darkblue;
+    }
+
+
+
+
+}
+
+
+.upper-menu {
+
+    display: flex;
+    justify-content: space-around;
+
+    .__menu-btn {
+        margin-top: .5em;
+        padding: .5em;
+        font-size: 1.1em;
+        font-weight: 600;
+        transition: all 0.5s;
+        cursor: pointer;
+
+
+    }
+
+    .__me-btn {
+        color:white;
+
+        &:hover {
+            background-color:rgba(255, 255, 255, 0.2);
+        }
+    }
+
+    .__chiro-btn {
+        color:white;
+
+        &:hover {
+            background-color:rgba(255, 255, 255, 0.2);
+        }
+    }
+
+    .__green {
+        color: $darkblue;
+    }
+
+    .__testimonies-btn {
+        color: $darkblue;
+
+        &:hover {
+            background-color:rgba($mediumblue, 0.2);
+        }
+    }
+
+    .__contacts-btn {
+        color: $darkblue;
+
+        &:hover {
+            background-color:rgba($mediumblue, 0.2);
+        }
+    }
+
+}
+
+.contact-icons {
+    position: absolute;
+
+    right: 2em;
+    bottom: 3em;
+
+    .__phone-icon {
+        cursor: pointer;
+
+        &::before {
+            position: absolute;
+
+            content: "";
+            font-family: 'Roboto', sans-serif;
+            color: $darkblue;
+            font-weight: 1000;
+            font-size: 1.15em;
+            letter-spacing: 1px;
+
+            right: -1em;
+            opacity: 0;
+            transition: 0.5s all;
+        }
+
+        &:hover::before {
+            right: 2em;
+            top: 0.15em;
+            content: "0612345678";
+            opacity: 1;
+        }
+
+        img {
+            width: 1.5em;
+            height: 1.5em;
+        }
+
+
+    }
+
+    .__mail-icon {
+
+        margin-top: 1em;
+        cursor: pointer;
+
+        &::before {
+            position: absolute;
+
+            content: "";
+            font-family: 'Roboto', sans-serif;
+            color: $darkblue;
+            font-weight: 1000;
+            font-size: 1.15em;
+            letter-spacing: 1px;
+
+            right: -1em;
+            opacity: 0;
+            transition: 0.5s all;
+        }
+
+        &:hover::before {
+            right: 2em;
+            bottom: 0.175em;
+            content: "amallevays.chiro@gmail.com";
+            opacity: 1;
+        }
+        
+        img {
+            width: 1.5em;
+            height: 1.25em;
+        }
+
+
+    }
+
+}
+
+@media (min-width: 700px) and (max-width: 850px) {
+    
+    
+    .title-box {
+
+        .__title-div-left {
+
+            width: 65%;
+
+        }
+
+        .__title-div-right {
+
+            width: 65%;
+
+
+        }
+
+
+    }
+
+}
+
+
+@media (min-width: 600px) and (max-width: 700px) {
+    
+    
+    .title-box {
+
+        .__title-div-left {
+
+            width: 67%;
+
+        }
+
+        .__title-div-right {
+
+            width: 67%;
+
+
+        }
+
+
+    }
+
+}
+
+
+@media (min-width: 500px) and (max-width: 600px) {
+    
+    
+    .title-box {
+
+        .__title-div-left {
+
+            width: 70%;
+
+        }
+
+        .__title-div-right {
+
+            width: 70%;
+
+
+        }
+
+
+    }
+
+}
+
+
+@media (min-width: 0px) and (max-width: 500px) {
+    
+    
+    .title-box {
+
+        .__title-div-left {
+
+            width: 73%;
+
+        }
+
+        .__title-div-right {
+
+            width: 73%;
+
+
+        }
+
+
+    }
+
+}
+
+
+.upper-menu-btn {
+
+
+    position: absolute;
+    right: 1em;
+
+    width: 2.15em;
+    height: 1.75em;
+
+    top: 1em;
+
+
+
+    .__bar {
+
+        width: 100%;
+        height: .2em;
+
+        background-color: $darkblue;
+
+        border-radius: 4px;
+        position: absolute;
+
+        transition: 0.4s;
+
+    }
+
+    .__bar1 {
+        
+        top: 1px;
+    }
+
+    .__bar2 {
+
+        top: .775em;
+
+    }
+
+    .__bar3 {
+
+        bottom: 1px;     
+    }
+
+    &.toggle .__bar1 {
+        -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+        transform: rotate(-45deg) translate(-9px, 6px) ;
+    }
+
+    &.toggle .__bar2 {
+        opacity: 0;
+    }
+
+    &.toggle .__bar3 {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+        transform: rotate(45deg) translate(-5px, -4px) ;
+    }
+
+}
+
+
+.blue-rect-2 {
+
+    position: absolute;
+    height: 6em;
+    width: 28%;
+
+    background-color: rgba($mediumblue, 0.3);
+
+    right: 0;
+    bottom: 6%;
+
+
+}

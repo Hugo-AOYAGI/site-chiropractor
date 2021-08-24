@@ -1,0 +1,68 @@
+@import "styles/variables";
+@import "styles/homepage";
+@import "styles/aboutpage";
+@import "styles/chiropage";
+@import "styles/testimoniespage";
+@import "styles/contactspage";
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: $lightbeige;
+    overflow-x: hidden;
+
+    font-size: 100%;
+
+    font-family: $main_font;
+}
+
+a:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+
+
+@media (min-width: 1150px) and (max-width: 1250px) {
+    
+    body {
+        font-size: 90%;
+    }
+    
+
+}
+
+@media (min-width: 1024px) and (max-width: 1150px) {
+    
+    body {
+        font-size: 80%;
+    }
+    
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    
+    body {
+        font-size: 80%;
+    }
+    
+
+}
+
+@media (min-width: 0px) and (max-width: 768px) {
+    
+    body {
+        font-size: 80%;
+    }
+    
+
+}

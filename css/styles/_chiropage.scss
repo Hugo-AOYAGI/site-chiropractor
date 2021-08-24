@@ -1,0 +1,148 @@
+.chiro-page {
+
+    height: fit-content;
+
+    padding-bottom: 3em;
+
+    .__title-bar-right {
+
+        margin-top: 5em;
+        margin-bottom: 4em;
+        opacity: 0.9;
+        background-color: $darkblue;
+    
+        width: 50%;
+        padding-left: 2em;
+        
+
+        color: white;
+        line-height: 2.5em;
+        text-align: left;
+        vertical-align: center;
+        font-size: 1.65em;
+
+        font-weight: 600;
+
+        margin-left: calc(50% - 2em);
+    
+    }
+
+    .__content {
+
+        display: block;
+        height: 70%;
+
+
+
+        .__introduction {
+            width: 70%;
+            margin-top: 3em;
+            margin-left: auto;
+            margin-right: auto;
+
+            font-size: 1.15em;
+            padding: 1em;
+
+            border-left: 2px solid $darkblue;
+            background-color: rgba(white, 0.6);
+
+        }
+
+
+    }
+
+}
+
+
+.upsides-div {
+
+    width: 80%;
+    background-color: rgba($mediumblue, 1);
+    height: fit-content;
+    margin-top: 5em;
+    
+    margin-right: 0;
+    margin-left: auto;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 1em;
+    padding-bottom: 3em;
+
+    border-left: 2px solid $darkblue;
+    border-top: 2px solid $darkblue;
+    border-bottom: 2px solid $darkblue;
+    
+    .__header {
+
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+
+        text-align: center;
+
+        font-size: 1.5em;
+        font-weight: 600;
+        padding: 1em;
+
+        color: white;
+
+        border: 2px solid white;
+
+    }
+
+
+
+}
+
+.upside {
+
+    display: flex;
+    flex-direction: row;
+
+    .__icon {
+
+        margin-left: 3em;
+        margin-right: 3em;
+
+    }
+
+    .__text {
+
+        height: fit-content;
+        margin-top: auto;
+        margin-bottom: auto;
+
+        font-size: 1.15em;
+        color: white;
+        padding: 2em;
+
+        font-weight: 500;
+
+        b {
+
+            font-weight: 700;
+
+        }
+
+    }
+
+
+}
+
+#injured-icon {
+    width: 8em;
+}
+
+#sleep-icon {
+
+    width: 20em;
+
+}
+
+#sport-icon {
+    
+    width: 18em;
+
+}

@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>Alexandra Mallevays</title>
+</head>
+<body>
+    <div class="main-frame">
+    <div class="homepage section">
+        <div class="bg-image"></div>
+        <div class="title-box">
+            <div class="__title-div-left"></div>
+            <div class="__title-div-right"></div>
+            <div class="__title-text">
+                <div class="__row">Alexandra</div>
+                <div class="__row __row-2">Mallevays</div>
+                <div class="__subtitle">
+                    Chiropraticienne
+                </div>
+            </div>
+        </div>
+
+        <div class="rdv-btn">
+            Prendre un</br>rendez-vous
+        </div>
+
+        <div class="contact-icons">
+            <div class="__phone-icon" onclick='
+            var data = [new ClipboardItem({ "text/plain": new Blob(["0612345678"], { type: "text/plain" }) })];
+            navigator.clipboard.write(data).then(function() {
+            console.log("Copied to clipboard successfully!");
+            }, function() {
+            console.error("Unable to write to clipboard. :-(");
+            });
+            '>
+                <img src="assets/icons/phonex2.png" alt="">
+            </div>
+            <a href="mailto:username@example.com">
+            <div class="__mail-icon">
+                <img src="assets/icons/mailx2.png" alt="">
+            </div>
+        </a>
+        </div>
+
+        <div class="upper-menu-btn" onclick="toggleBtn(this)">
+            <div class="__bar1 __bar"></div>
+            <div class="__bar2 __bar"></div>
+            <div class="__bar3 __bar"></div>
+        </div>
+
+        <div class="upper-menu-mobile">
+            <div class="__me-btn __menu-btn"><a href="#about-page">&nbspQui suis-je ?&nbsp</a></div>
+            <div class="__chiro-btn __menu-btn"><a href="#chiro-page">Qu'est-ce que la chiropraxie ?</span></div>
+            <div class="__testimonies-btn __menu-btn"><a href="#testimonies-page">Quelques témoignages</a></div>
+        </div>
+    </div>
+    <div class="about-page section" id="about-page">
+
+        <div class="__title-bar">
+            Qui suis-je ?
+        </div>
+
+        <div class="__content">
+            <div class="white-rect-1"></div>
+            <div class="__career">
+                
+                <div class="timeline">
+                    <div class="__event"> 
+                        <span class="__date">2015</span>    
+                        <div class="__event-text">Première année commune aux études de santé</div> 
+                    </div>
+                    <div class="__event">
+                        <span class="__date">2021</span>
+                        <div class="__event-text">Diplôme de chiropraxie</div>
+                    </div>
+                    <div class="__event">
+                        <span class="__date __last-date">2021</span> 
+                        <div class="__event-text">Ouverture de mon cabinet de chiropraxie</div>
+                    </div>
+
+
+                </div>
+            </div>
+            <div class="__abouttext-container">
+                <div class="blue-rect-1"></div>
+                <image src="assets/profile_pic.png" class="__profile-pic"></image>
+                <div class="__abouttext">
+                    Mauris ex nisi, luctus a congue id, consectetur at leo. Fusce sed egestas sapien. Etiam nec commodo quam. Duis tincidunt diam sem, sit amet vestibulum ipsum luctus et. Donec ipsum ex, tempor in nibh quis, lobortis rutrum dolor. Curabitur et hendrerit nisi. Vestibulum dictum libero id tortor pellentesque maximus. Aenean quis lectus convallis, egestas risus at, commodo neque. Donec vel pretium lacus, quis dignissim elit. Curabitur hendrerit ultricies accumsan. Morbi sed massa a purus dictum porta elementum et mauris.
+                    </br></br>
+                    Proin laoreet cursus pulvinar. Mauris malesuada vel justo ut tincidunt. Donec eu tellus tincidunt, dapibus magna at, viverra enim. Etiam placerat tortor non enim imperdiet, nec sollicitudin odio maximus. Aliquam molestie commodo pretium. Donec ac convallis orci. Aenean scelerisque nunc laoreet fermentum varius. Mauris semper tortor turpis, ut cursus augue luctus eget.  
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+    <div class="chiro-page section" id="chiro-page">
+
+        <div class="__title-bar-right">
+            Qu'est-ce que la chiropraxie ?
+        </div>
+
+        <div class="__content">
+            <p class="__introduction">
+                Vivamus tristique risus a lorem fringilla, in ornare ligula imperdiet. Vestibulum vel eros sem. Cras facilisis risus ex, ut faucibus nisi dictum sit amet.
+                Quisque dui nulla, hendrerit ut est cursus, aliquam viverra arcu. Quisque vehicula felis vitae magna finibus euismod.</p>
+            <div class="upsides-div">
+                <div class="upside">
+                    <div class="__icon"></div>
+                    <div class="__text"></div>
+                </div>
+                <div class="upside">
+                    <div class="__icon"></div>
+                    <div class="__text"></div>
+                </div>
+                <div class="upside">
+                    <div class="__icon"></div>
+                    <div class="__text"></div>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
+
+    <div class="testimonies-page section" id="testimonies-page">
+
+        <div class="__title-bar-center">
+            Quelques témoignages
+        </div>
+
+        <div class="__testimonies">
+
+            <div class="testimony">
+                <div class="__text">Forta suscipit sapien, ac placerat purus iaculis non. Cras luctus tortor vitae ex lacinia, sit amet ullamcorper tellus varius. Praesent ut odio non odio mollis ullamcorper id vitae ex.
+                    Vivamus, at poibero in mauris viverra porttitor. Mauris varius felis</div>
+                <div class="__author">Michel, 49 ans</div>
+            </div>
+            <div class="testimony">
+                <div class="__text">Forta  iaculis non. Cras luctus tortor vitae ex lacinia, sit amet ullamcorper tellus varius. Praesent ut odio non odio mollis ullamcorper id vitae ex.
+                    Vivamus, at posuere metus alro in mauris viverra porttitor. Mauris varius felis</div>
+                <div class="__author">Michel, 49 ans</div>
+            </div>
+            <div class="testimony">
+                <div class="__text">Forta. Cras luctus tortorcorper tellus varius. Praesent ut odio non odio mollis ullamcorper id vitae ex.
+                    Vivamus, at posuere metus aris viverra porttitor. Mauris varius felis</div>
+                <div class="__author">Michel, 49 ans</div>
+            </div>
+            <div class="testimony">
+                <div class="__text">Forta suscipit sapien, ac placerat purus iaculis non. Cras luctus tortor vitae ex lacinia, sit amet ullamcorper tellus varius. Praesent ut odio non odio mollis ullamcorper id vitae ex.
+                    Vivamus, at posuere mauris viverra porttitor. Mauris varius felis</div>
+                <div class="__author">Michel, 49 ans</div>
+            </div>
+            <div class="testimony">
+                <div class="__text">Forta suscipitus tortor vitae ex lacinia, sit amet ullamcorper tellus varius. Praesent ut odio non odio mollis ullamcorper id vitae ex.
+                    Vivamus, at pos in mauris viverra porttitor. Mauris varius felis</div>
+                <div class="__author">Michel, 49 ans</div>
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+    <script>
+        let toggleBtn = (elt) => {
+            elt.classList.toggle("toggle");
+        }
+    </script>
+</body>
+</html>
