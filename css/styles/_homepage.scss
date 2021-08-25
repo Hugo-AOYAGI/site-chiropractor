@@ -327,29 +327,6 @@
 }
 
 
-@media (min-width: 0px) and (max-width: 500px) {
-    
-    
-    .title-box {
-
-        .__title-div-left {
-
-            width: 73%;
-
-        }
-
-        .__title-div-right {
-
-            width: 73%;
-
-
-        }
-
-
-    }
-
-}
-
 
 @media (min-width: 0px) and (max-width: 600px) {
 
@@ -359,6 +336,35 @@
         height: 95vh;
     }
 
+
+    .bg-image {
+        position: absolute;
+        height: 100vh;
+        width: 100vw;
+        // top: 50%;
+        background: center / cover url("/assets/banner.jpg");
+    }
+
+    .title-box {
+
+        .__title-div-left {
+
+            width: 85%;
+
+        }
+
+        .__title-div-right {
+
+            width: 85%;
+
+
+        }
+
+
+    }
+
+    
+    
     
 
 }
@@ -384,8 +390,8 @@
         width: 100%;
         height: .2em;
 
-        background-color: $darkblue;
-
+        // background-color: $darkblue;
+        background-color: $lightbeige;
         border-radius: 4px;
         position: absolute;
 
@@ -421,8 +427,8 @@
     }
 
     &.toggle .__bar3 {
-        -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-        transform: rotate(45deg) translate(-5px, -4px) ;
+        -webkit-transform: rotate(45deg) translate(-7px, -6px) ;
+        transform: rotate(45deg) translate(-7px, -6px) ;
         background-color: white;
     }
 
@@ -451,7 +457,9 @@
     position: absolute;
 
     width: 100%;
-    height: 50%;
+    height: fit-content;
+
+    padding-bottom: 2em;
 
     right: -100%;
     top: 0;
@@ -479,8 +487,8 @@
         margin-left: 5%;
         border-top: 1px solid $darkblue;
 
-        font-size: 1.15em;
-        padding: .5em;
+        font-size: 1.25em;
+        padding: 1em .5em 1em .5em;
         color: white;
         font-weight: 600;
 
