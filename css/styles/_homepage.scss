@@ -70,7 +70,7 @@
         color: white;
 
         .__row {
-            font-weight: 200;
+            font-weight: 500;
             font-size: 2.5em;
             text-transform: uppercase;
         }
@@ -94,7 +94,7 @@
     position: absolute;
 
     border: .15em solid $lightbeige;
-    background-color: $mediumblue;
+    background-color: $darkblue;
 
     left: 0;
     right: 0;
@@ -106,14 +106,15 @@
 
     text-align: center;
     font-size: 1.5em;
-    color: white;
+    font-weight: 500;
+    color: $white;
 
     transition: all 0.3s;
 
     cursor: pointer;
 
     &:hover {
-        background-color: $darkblue;
+        background-color: $mediumblue;
     }
 
 
@@ -147,16 +148,13 @@
     }
 
     .__chiro-btn {
-        color:white;
+        color:$darkblue;
 
         &:hover {
-            background-color:rgba(255, 255, 255, 0.2);
+            background-color:rgba($mediumblue, 0.2);
         }
     }
 
-    .__green {
-        color: $darkblue;
-    }
 
     .__testimonies-btn {
         color: $darkblue;
@@ -166,11 +164,12 @@
         }
     }
 
-    .__contacts-btn {
-        color: $darkblue;
+    .__cabinet-btn {
+        color: white;
 
         &:hover {
-            background-color:rgba($mediumblue, 0.2);
+            background-color:rgba(255, 255, 255, 0.2);
+            
         }
     }
 

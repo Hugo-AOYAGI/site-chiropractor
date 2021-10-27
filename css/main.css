@@ -19,7 +19,7 @@
 
 .title-box .__title-div-left {
   position: absolute;
-  background-color: #285085;
+  background-color: #8691b7;
   opacity: 0.8;
   width: 62%;
   height: 80%;
@@ -29,7 +29,7 @@
   position: absolute;
   right: 0;
   bottom: 0;
-  background-color: #285085;
+  background-color: #8691b7;
   opacity: 0.8;
   width: 62%;
   height: 80%;
@@ -56,7 +56,7 @@
 }
 
 .title-box .__title-text .__row {
-  font-weight: 200;
+  font-weight: 500;
   font-size: 2.5em;
   text-transform: uppercase;
 }
@@ -74,7 +74,7 @@
 .rdv-btn {
   position: absolute;
   border: 0.15em solid #F6F3E6;
-  background-color: #3F7CAA;
+  background-color: #8691b7;
   left: 0;
   right: 0;
   top: 65%;
@@ -85,14 +85,15 @@
   padding: .5em 1.5em .5em 1.5em;
   text-align: center;
   font-size: 1.5em;
-  color: white;
+  font-weight: 500;
+  color: #fff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   cursor: pointer;
 }
 
 .rdv-btn:hover {
-  background-color: #285085;
+  background-color: #d2d8ee;
 }
 
 .upper-menu {
@@ -122,31 +123,27 @@
 }
 
 .upper-menu .__chiro-btn {
-  color: white;
+  color: #8691b7;
 }
 
 .upper-menu .__chiro-btn:hover {
-  background-color: rgba(255, 255, 255, 0.2);
-}
-
-.upper-menu .__green {
-  color: #285085;
+  background-color: rgba(210, 216, 238, 0.2);
 }
 
 .upper-menu .__testimonies-btn {
-  color: #285085;
+  color: #8691b7;
 }
 
 .upper-menu .__testimonies-btn:hover {
-  background-color: rgba(63, 124, 170, 0.2);
+  background-color: rgba(210, 216, 238, 0.2);
 }
 
-.upper-menu .__contacts-btn {
-  color: #285085;
+.upper-menu .__cabinet-btn {
+  color: white;
 }
 
-.upper-menu .__contacts-btn:hover {
-  background-color: rgba(63, 124, 170, 0.2);
+.upper-menu .__cabinet-btn:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 .contact-icons {
@@ -163,7 +160,7 @@
   position: absolute;
   content: "";
   font-family: 'Roboto', sans-serif;
-  color: #285085;
+  color: #8691b7;
   font-weight: 1000;
   font-size: 1.15em;
   letter-spacing: 1px;
@@ -194,7 +191,7 @@
   position: absolute;
   content: "";
   font-family: 'Roboto', sans-serif;
-  color: #285085;
+  color: #8691b7;
   font-weight: 1000;
   font-size: 1.15em;
   letter-spacing: 1px;
@@ -312,7 +309,7 @@
   position: absolute;
   height: 6em;
   width: 28%;
-  background-color: rgba(63, 124, 170, 0.3);
+  background-color: rgba(210, 216, 238, 0.3);
   right: 0;
   bottom: 6%;
 }
@@ -327,7 +324,7 @@
   padding-bottom: 2em;
   right: -100%;
   top: 0;
-  background-color: #3F7CAA;
+  background-color: #d2d8ee;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -344,7 +341,7 @@
 .upper-menu-mobile .__menu-btn-mobile {
   width: 85%;
   margin-left: 5%;
-  border-top: 1px solid #285085;
+  border-top: 1px solid #8691b7;
   font-size: 1.25em;
   padding: 1em .5em 1em .5em;
   color: white;
@@ -352,7 +349,7 @@
 }
 
 .upper-menu-mobile .__contacts-btn {
-  border-bottom: 1px solid #285085;
+  border-bottom: 1px solid #8691b7;
 }
 
 .menu-toggle {
@@ -364,21 +361,6 @@
   height: -moz-fit-content;
   height: fit-content;
   padding-bottom: 3em;
-}
-
-.about-page .__title-bar {
-  margin-top: 0em;
-  margin-bottom: 3em;
-  opacity: 1;
-  background-color: #285085;
-  width: 50%;
-  padding-right: 2em;
-  color: white;
-  line-height: 2.5em;
-  text-align: right;
-  vertical-align: center;
-  font-size: 1.65em;
-  font-weight: 600;
 }
 
 .about-page .__content {
@@ -416,7 +398,7 @@
   height: 5em;
   margin-top: -3em;
   margin-left: 10%;
-  background-color: rgba(63, 124, 170, 0.3);
+  background-color: rgba(210, 216, 238, 0.3);
   z-index: -10;
 }
 
@@ -446,9 +428,9 @@
   height: -moz-fit-content;
   height: fit-content;
   max-width: 65%;
-  background-color: #3F7CAA;
+  background-color: #d2d8ee;
   padding: 0.2em 0.4em 0.2em 0.4em;
-  color: white;
+  color: black;
 }
 
 .timeline .__date {
@@ -464,7 +446,7 @@
   width: 1.15em;
   display: block;
   margin-left: 0.6em;
-  background-color: #285085;
+  background-color: #8691b7;
   border-radius: 50%;
 }
 
@@ -475,11 +457,23 @@
   display: block;
   margin-top: .5em;
   margin-left: 1.15em;
-  background-color: #285085;
+  background-color: #8691b7;
 }
 
 .timeline .__last-date::after {
   display: none;
+}
+
+.associations {
+  font-size: 1.3em;
+  font-weight: 500;
+  width: 100%;
+  text-align: center;
+  background-color: #d2d8ee;
+  color: black;
+  padding-top: .5em;
+  padding-bottom: .5em;
+  margin-top: 3em;
 }
 
 .white-rect-1 {
@@ -526,11 +520,7 @@
 }
 
 @media (min-width: 100px) and (max-width: 600px) {
-  .about-page .__title-bar {
-    width: 100%;
-    padding-left: 0;
-    padding-right: 0;
-    text-align: center;
+  .about-page .title-bar {
     margin-bottom: 0em;
   }
   .about-page .__content {
@@ -564,9 +554,8 @@
     height: -moz-fit-content;
     height: fit-content;
     max-width: 70%;
-    background-color: #3F7CAA;
+    background-color: #d2d8ee;
     padding: 0.2em 0.4em 0.2em 0.4em;
-    color: white;
   }
   .timeline .__date {
     margin-left: 1em;
@@ -591,19 +580,8 @@
   padding-bottom: 3em;
 }
 
-.chiro-page .__title-bar-right {
+.chiro-page .title-bar {
   margin-top: 5em;
-  margin-bottom: 4em;
-  background-color: #285085;
-  width: 50%;
-  padding-left: 2em;
-  color: white;
-  line-height: 2.5em;
-  text-align: left;
-  vertical-align: center;
-  font-size: 1.65em;
-  font-weight: 600;
-  margin-left: calc(50% - 2em);
 }
 
 .chiro-page .__content {
@@ -612,19 +590,19 @@
 }
 
 .chiro-page .__content .__introduction {
-  width: 70%;
+  width: 80%;
   margin-top: 3em;
   margin-left: auto;
   margin-right: auto;
   font-size: 1.15em;
   padding: 1em;
-  border-left: 2px solid #285085;
+  border-left: 2px solid #8691b7;
   background-color: rgba(255, 255, 255, 0.6);
 }
 
 .upsides-div {
   width: 80%;
-  background-color: #3f7caa;
+  background-color: #d2d8ee;
   height: -webkit-fit-content;
   height: -moz-fit-content;
   height: fit-content;
@@ -640,9 +618,9 @@
           flex-direction: column;
   padding: 1em;
   padding-bottom: 3em;
-  border-left: 2px solid #285085;
-  border-top: 2px solid #285085;
-  border-bottom: 2px solid #285085;
+  border-left: 2px solid #8691b7;
+  border-top: 2px solid #8691b7;
+  border-bottom: 2px solid #8691b7;
 }
 
 .upsides-div .__header {
@@ -654,24 +632,32 @@
   text-align: center;
   font-size: 1.5em;
   font-weight: 600;
-  padding: 1em;
-  color: white;
-  border: 2px solid white;
+  padding: .5em 1.5em .5em 1.5em;
+  color: #404040;
+  border: 2px solid #8691b7;
 }
 
 .upside {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: horizontal;
+  -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .upside .__icon {
   margin-left: 3em;
   margin-right: 3em;
+}
+
+.upside .__header2 {
+  color: #404040;
+  font-weight: 700;
+  font-size: 1.2em;
+  margin-left: 3em;
+  margin-top: 1em;
 }
 
 .upside .__text {
@@ -681,13 +667,9 @@
   margin-top: auto;
   margin-bottom: auto;
   font-size: 1.15em;
-  color: white;
-  padding: 2em;
+  color: #404040;
+  padding: .5em 2em 1em 2em;
   font-weight: 500;
-}
-
-.upside .__text b {
-  font-weight: 700;
 }
 
 #injured-icon {
@@ -703,12 +685,6 @@
 }
 
 @media (min-width: 0px) and (max-width: 600px) {
-  .chiro-page .__title-bar-right {
-    width: 100%;
-    margin-left: 0;
-    padding-left: 0;
-    text-align: center;
-  }
   .chiro-page .__content .__introduction {
     width: 80%;
     margin-top: 0;
@@ -743,22 +719,8 @@
   height: fit-content;
 }
 
-.testimonies-page .__title-bar-center {
+.testimonies-page .title-bar {
   margin-top: 5em;
-  background-color: #285085;
-  width: -webkit-fit-content;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding-left: 2em;
-  padding-right: 2em;
-  margin-left: auto;
-  margin-right: auto;
-  color: white;
-  line-height: 2.5em;
-  text-align: left;
-  vertical-align: center;
-  font-size: 1.65em;
-  font-weight: 600;
 }
 
 .testimonies-page .__testimonies {
@@ -797,7 +759,7 @@
   font-size: 1.25em;
   margin-left: 3em;
   font-weight: 600;
-  color: #285085;
+  color: #8691b7;
 }
 
 .white-rect-2 {
@@ -807,7 +769,7 @@
   left: 0;
   margin-top: 2em;
   z-index: -10;
-  background-color: rgba(63, 124, 170, 0.5);
+  background-color: rgba(210, 216, 238, 0.5);
 }
 
 .white-rect-3 {
@@ -817,7 +779,7 @@
   right: 0;
   margin-top: 14em;
   z-index: -10;
-  background-color: rgba(63, 124, 170, 0.5);
+  background-color: rgba(210, 216, 238, 0.5);
 }
 
 @media (min-width: 0px) and (max-width: 600px) {
@@ -865,7 +827,7 @@
   padding-bottom: 3em;
   margin-top: 6em;
   padding-top: 2em;
-  background-color: #3F7CAA;
+  background-color: #d2d8ee;
 }
 
 .contacts-page .__title {
@@ -882,7 +844,7 @@
   height: 450px;
   margin-left: auto;
   margin-right: auto;
-  border: 2px solid #285085;
+  border: 2px solid #8691b7;
 }
 
 .info-row {
@@ -967,14 +929,23 @@
     width: 50%;
     margin-top: 2em;
     padding-top: 2em;
-    border-top: 1px solid #285085;
+    border-top: 1px solid #8691b7;
   }
   .info-row .__schedule {
     width: 50%;
     margin-top: 2em;
     padding-top: 2em;
-    border-top: 1px solid #285085;
+    border-top: 1px solid #8691b7;
   }
+}
+
+.cabinet-page {
+  height: 100vh;
+}
+
+.cabinet-page .title-bar {
+  margin-top: 0em;
+  margin-bottom: 3em;
 }
 
 body {
@@ -1034,6 +1005,52 @@ a:visited {
 @media (min-width: 0px) and (max-width: 450px) {
   body {
     font-size: 90%;
+  }
+}
+
+.title-bar {
+  opacity: 1;
+  background-color: #8691b7;
+  color: white;
+  line-height: 2.5em;
+  vertical-align: center;
+  font-size: 1.65em;
+  font-weight: 600;
+}
+
+.title-bar-left {
+  width: 50%;
+  padding-right: 2em;
+  text-align: right;
+}
+
+.title-bar-right {
+  padding-left: 2em;
+  text-align: left;
+  margin-left: calc(50% - 2em);
+}
+
+.title-bar-center {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-left: 2em;
+  padding-right: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+}
+
+ul {
+  list-style: square;
+}
+
+@media (min-width: 100px) and (max-width: 600) {
+  .title-bar {
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    text-align: center;
   }
 }
 /*# sourceMappingURL=main.css.map */

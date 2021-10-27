@@ -5,27 +5,6 @@
     height: fit-content;
     padding-bottom: 3em;
 
-    .__title-bar {
-
-        margin-top: 0em;
-        margin-bottom: 3em;
-        opacity: 1;
-        background-color: $darkblue;
-    
-        width: 50%;
-        padding-right: 2em;
-        
-
-        color: white;
-        line-height: 2.5em;
-        text-align: right;
-        vertical-align: center;
-        font-size: 1.65em;
-
-        font-weight: 600;
-    
-    }
-
     .__content {
 
         display: flex;
@@ -112,7 +91,7 @@
         // color: $darkblue;
         background-color: $mediumblue;
         padding: 0.2em 0.4em 0.2em 0.4em;
-        color: white;
+        color: black;
     }
 
     .__date {
@@ -154,6 +133,23 @@
         display: none;
     }
 
+
+}
+
+.associations {
+
+    font-size: 1.3em;
+    font-weight: 500;
+
+    width: 100%;
+    text-align: center;
+
+    background-color: $mediumblue;
+    color: black;
+
+    padding-top: .5em;
+    padding-bottom: .5em;
+    margin-top: 3em;
 
 }
 
@@ -224,12 +220,7 @@
 
     .about-page {
 
-        .__title-bar {
-            width: 100%;
-            padding-left: 0;
-            padding-right: 0;
-            text-align: center;
-
+        .title-bar {
             margin-bottom: 0em;
         }
 
@@ -285,7 +276,6 @@
         // color: $darkblue;
         background-color: $mediumblue;
         padding: 0.2em 0.4em 0.2em 0.4em;
-        color: white;
     }
 
     .__date {

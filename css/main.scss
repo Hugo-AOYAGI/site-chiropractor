@@ -4,6 +4,7 @@
 @import "styles/chiropage";
 @import "styles/testimoniespage";
 @import "styles/contactspage";
+@import "styles/cabinetpage";
 
 
 body {
@@ -88,3 +89,65 @@ a:visited {
     
 
 }
+
+
+.title-bar {
+
+
+    opacity: 1;
+    background-color: $darkblue;
+    color: white;
+    line-height: 2.5em;
+    vertical-align: center;
+    font-size: 1.65em;
+
+    font-weight: 600;
+
+}
+
+.title-bar-left {
+    width: 50%;
+    padding-right: 2em;
+    text-align: right;
+
+}
+
+.title-bar-right {
+
+    padding-left: 2em;
+    text-align: left;
+    margin-left: calc(50% - 2em);
+
+}
+
+
+.title-bar-center {
+    width: fit-content;
+    padding-left: 2em;
+    padding-right: 2em;
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+
+
+
+}
+
+ul {
+    list-style: square;
+}
+
+
+@media (min-width: 100px) and (max-width:600) {
+
+    .title-bar {
+
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        text-align: center;
+    }
+
+}
+
