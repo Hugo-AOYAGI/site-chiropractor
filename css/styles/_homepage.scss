@@ -202,7 +202,7 @@
         &:hover::before {
             right: 2em;
             top: 0.15em;
-            content: "0612345678";
+            content: "0650796913";
             opacity: 1;
         }
 
@@ -381,6 +381,7 @@
     top: 1em;
 
     z-index: 5;
+    display: none;
 
 
 
@@ -451,20 +452,21 @@
 
 .upper-menu-mobile {
 
-    display: block;
+    display: none;
 
     position: absolute;
 
     width: 100%;
     height: fit-content;
 
-    padding-bottom: 2em;
+    padding-bottom: 4em;
 
     right: -100%;
     top: 0;
     
-    background-color: $mediumblue;
+    background-color: $darkblue;
     transition: 0.5s;
+    border-bottom: 2px solid $mediumblue;
 
     .__header {
 
@@ -484,7 +486,7 @@
 
         width: 85%;
         margin-left: 5%;
-        border-top: 1px solid $darkblue;
+        border-top: 1px solid $mediumblue;
 
         font-size: 1.25em;
         padding: 1em .5em 1em .5em;
@@ -495,7 +497,7 @@
 
     .__contacts-btn {
 
-        border-bottom: 1px solid $darkblue;
+        border-bottom: 1px solid $mediumblue;
 
     }
 
@@ -506,5 +508,51 @@
 .menu-toggle {
 
     right: 0px;
+
+}
+
+
+@media (min-width: 0px) and (max-width: 1000px) {
+
+    .upper-menu-mobile {
+        display: block;
+    }
+
+    .upper-menu-btn {
+        display: block;
+
+
+        .__bar {
+            background-color: $darkblue;
+        }
+
+    }
+
+    .upper-menu {
+        display: none;
+    }
+
+}
+
+
+@media (min-width: 450px) and (max-width: 1000px) {
+
+
+    .upper-menu-btn {
+
+        &.toggle .__bar1 {
+            -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+            transform: rotate(-45deg) translate(-7px, 6px) ;
+        }
+    
+    
+        &.toggle .__bar3 {
+            -webkit-transform: rotate(45deg) translate(-7px, -6px) ;
+            transform: rotate(45deg) translate(-6px, -6px) ;
+        }
+
+    }
+
+
 
 }

@@ -11,11 +11,6 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <link rel="stylesheet" href="css/main.css">
     <title>Alexandra Mallevays</title>
-    <script>
-    if (screen.width <= 600) {
-        document.location = "mobile.html";
-    }
-    </script>
 </head>
 <body>
     <div class="main-frame">
@@ -40,18 +35,18 @@
 
         <div class="contact-icons">
             <div class="__phone-icon" onclick='
-            var data = [new ClipboardItem({ "text/plain": new Blob(["0612345678"], { type: "text/plain" }) })];
+            var data = [new ClipboardItem({ "text/plain": new Blob(["0650796913"], { type: "text/plain" }) })];
             navigator.clipboard.write(data).then(function() {
             console.log("Copied to clipboard successfully!");
             }, function() {
             console.error("Unable to write to clipboard. :-(");
             });
             '>
-                <img src="assets/icons/phonex2.png" alt="">
+                <img src="assets/icons/phonex2.png" alt="Téléphone">
             </div>
             <a href="mailto:amallevays.chiro@gmail.com">
             <div class="__mail-icon">
-                <img src="assets/icons/mailx2.png" alt="">
+                <img src="assets/icons/mailx2.png" alt="Mail">
             </div>
         </a>
         </div>
@@ -68,12 +63,89 @@
             <div class="__spacer"></div>
             <div class="__spacer"></div>
         </div>
+
+
+        <div class="upper-menu-btn" onclick="toggleBtn(this)">
+            <div class="__bar1 __bar"></div>
+            <div class="__bar2 __bar"></div>
+            <div class="__bar3 __bar"></div>
+        </div>
+
+        <div class="upper-menu-mobile">
+            <div class="__header">MENU</div>
+            <a href="#cabinet-page"> <div class="__menu-btn-mobile">Cabinet et Prestations</div></a>
+            <a href="#about-page"><div class="__menu-btn-mobile __contacts-btn">Qui suis-je ?</div></a>
+            <a href="#chiro-page"><div class="__menu-btn-mobile">Tout sur la chiropraxie</div></a>
+            <a href="#testimonies-page"><div class="__menu-btn-mobile">Quelques témoignages</div></a>
+        </div>
+
+
+
     </div>
 
     <div class="cabinet-page section" id="cabinet-page">
 
         <div class="title-bar title-bar-left">
             Cabinet et prestations
+        </div>
+
+        <div class="__image-row">
+            <img src="assets/cabinet.png" class="cabinet-img" alt="Photo Cabinet">
+            <div class="__location __element">
+                <div class="__header">
+                    <img src="assets/icons/location.png" alt="" class="__icon">
+                    Localisation
+                </div>
+                <div class="__body">
+                    3 Place du Maréchal Juin</br>Maisons Laffitte 78600
+                    <i style="margin-top: 0.25em; color: #808080">à 3 minutes à pieds de la gare de RER</i>
+                    <a class="__route-btn" href="https://goo.gl/maps/s7NuypRD2UQCrzNB6">Itinéraire</a>
+                    
+                </div>
+
+            </div>
+        </div>
+        
+
+        <div class="__content">
+            
+            <div class="__prices __element">
+                <div class="__header">
+                    <img src="assets/icons/prices.png" alt="" class="__icon">
+                    Tarifs
+                </div>
+                <div class="__body">
+                    <div class="__price-cat">
+                        <div class="__cat">Première consultation ou consultation de suivi de chiropraxie</div>
+                        <div class="__price">60€</div>
+                    </div>
+                    <div class="__price-cat">
+                        <div class="__cat">Enfant - Première consultation ou consultation de suivi de chiropraxie</div>
+                        <div class="__price">50€</div>
+                    </div>
+                    <div class="__infos-header">
+                        <img src="assets/icons/infos.svg" alt="">
+                        Remboursement mutuelle
+                    </div>
+                    <div class="__infos">
+                        Votre facture vous permet de faire une demande de remboursement des séances de chiropraxie auprès de votre mutuelle.</br> Pour plus d'informations, rapprochez-vous de votre mutuelle, vous pouvez également consulter <u><a href="http://www.chiropraxie.com/mutuelles/">le site de l'Association Française de Chiropraxie</a></u>.
+                    </div>
+                </div>
+
+            </div>
+            <div class="__schedule __element">
+                <div class="__header">
+                    <img src="assets/icons/schedule.png" alt="" class="__icon">
+                    Horaires
+                </div>
+                <div class="__body">
+                    <div class="__day"><div class="__label">Lundi</div> 8:00 - 20:00</div>
+                    <div class="__day"><div class="__label">Mercredi</div> 8:00 - 20:00 </div>
+                    <div class="__day"><div class="__label">Jeudi</div> 10:00 - 22:00</div>
+                    <div class="__day"><div class="__label">Samedi</div> 14:00 - 19:00</div>
+                       
+                </div>
+            </div>
         </div>
 
     </div>
@@ -209,7 +281,7 @@
     </div>
 
     <div class="contacts-page section" id="contacts-page">
-
+<!-- 
         <div class="__title">CONTACTS</div>
         <iframe class="maps" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2620.429758199022!2d2.1437367150682656!3d48.94530220253824!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e661817bcd5d53%3A0xc0e5ba6e43e9ac90!2s3%20Pl.%20du%20Mar%C3%A9chal%20Juin%2C%2078600%20Maisons-Laffitte!5e0!3m2!1sfr!2sfr!4v1629821857149!5m2!1sfr!2sfr" allowfullscreen="" loading="lazy"></iframe>
         <div class="info-row">
@@ -230,12 +302,17 @@
                 <div class="__day">Samedi</div> 14:00 - 19:00
             </div>
             <div class="__spacer"></div>
-        </div>
+        </div> -->
 
     </div>
 
 </div>
     
-    <script src="index.js"></script>
+<script>
+let toggleBtn = (elt) => {
+        elt.classList.toggle("toggle");
+        $(".upper-menu-mobile")[0].classList.toggle("menu-toggle");
+    }
+</script>
 </body>
 </html>
