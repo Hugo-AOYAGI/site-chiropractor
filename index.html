@@ -34,7 +34,8 @@
         </div>
 
         <div class="contact-icons">
-            <div class="__phone-icon" onclick='
+            <div class="__phone-icon __contact-icon" 
+            onclick='
             var data = [new ClipboardItem({ "text/plain": new Blob(["0650796913"], { type: "text/plain" }) })];
             navigator.clipboard.write(data).then(function() {
             console.log("Copied to clipboard successfully!");
@@ -42,11 +43,13 @@
             console.error("Unable to write to clipboard. :-(");
             });
             '>
-                <img src="assets/icons/phonex2.png" alt="Téléphone">
+                0650796913 
+                <!-- <img src="assets/icons/phonex2.png" alt="Téléphone"> -->
             </div>
             <a href="mailto:amallevays.chiro@gmail.com">
-            <div class="__mail-icon">
-                <img src="assets/icons/mailx2.png" alt="Mail">
+            <div class="__mail-icon __contact-icon">
+                amallevays.chiro@gmail.com
+                <!-- <img src="assets/icons/mailx2.png" alt="Mail"> -->
             </div>
         </a>
         </div>
@@ -86,19 +89,19 @@
     <div class="cabinet-page section" id="cabinet-page">
 
         <div class="title-bar title-bar-left">
-            Cabinet et prestations
+            Le cabinet et les prestations
         </div>
 
         <div class="__image-row">
-            <img src="assets/cabinet.png" class="cabinet-img" alt="Photo Cabinet">
+            <img src="assets/cabinet.jpg" class="cabinet-img" alt="Photo Cabinet">
             <div class="__location __element">
                 <div class="__header">
                     <img src="assets/icons/location.png" alt="" class="__icon">
                     Localisation
                 </div>
                 <div class="__body">
-                    3 Place du Maréchal Juin</br>Maisons Laffitte 78600
-                    <i style="margin-top: 0.25em; color: #808080">à 3 minutes à pieds de la gare de RER</i>
+                    3 Place du Maréchal Juin</br>78600 Maisons Laffitte 
+                    <i style="margin-top: 0.25em; color: #808080; padding: 1em;">3 minutes à pieds de la gare de RER et 15 min de paris saint lazare en transport</i>
                     <a class="__route-btn" href="https://goo.gl/maps/s7NuypRD2UQCrzNB6">Itinéraire</a>
                     
                 </div>
@@ -139,8 +142,8 @@
                     Horaires
                 </div>
                 <div class="__body">
-                    <div class="__day"><div class="__label">Lundi</div> 8:00 - 20:00</div>
-                    <div class="__day"><div class="__label">Mercredi</div> 8:00 - 20:00 </div>
+                    <div class="__day"><div class="__label">Lundi</div> 9:00 - 20:30</div>
+                    <div class="__day"><div class="__label">Mercredi</div> 9:00 - 20:30</div>
                     <div class="__day"><div class="__label">Jeudi</div> 10:00 - 22:00</div>
                     <div class="__day"><div class="__label">Samedi</div> 14:00 - 19:00</div>
                        
@@ -178,12 +181,14 @@
                 <div class="blue-rect-1"></div>
                 <image src="assets/profile_pic.png" class="__profile-pic"></image>
                 <div class="__abouttext">
-                    Chiropracteur diplômée de l'Institut Franco-Européen de Chiropraxie (IFEC, établissement de formation agréé par le ministère de la santé) suite à  6 années d'etude j'ai toujours été intéressée par le fonctionnement du corps humain.
-                    Afin de parfaire mes connaissances sur ce sujet , j'ai fait un Master STAPS à l'université Paris Sud axé sur la psychologie et la performance des sportifs.
-                    </br></br>
-                    Mon but est d'écouter et comprendre vos douleurs et vos attentes, mais également de vous expliquer vos douleurs, leurs conséquences et comment y remédier. Je mets un point d'honneur à continuer des formations régulièrement pour toujours mieux comprendre le corps humain.
-                    Je suis certifiée en activator, Mckenzie et d'autres techniques chiropratiques telles que SOT et la prise en charge des femmes enceintes et enfants.
-                    
+                    Chiropracteur diplômée de l'Institut Franco-Européen de Chiropraxie (IFEC, établissement de formation agréé par le ministère de la santé) suite à 6 années d'étude j'ai toujours été intéressée par le fonctionnement du corps humain. Afin de parfaire mes connaissances sur ce sujet , j'ai fait un Master STAPS à l'université Paris Sud axé sur la psychologie et la performance des sportifs.
+                </br></br>
+                <i>Mon objectif professionnel :</i> </br>
+                Je mets un point d'honneur à continuer des formations régulièrement pour toujours mieux comprendre le corps humain. Je suis certifiée en activator, Mckenzie et d'autres techniques chiropratiques telles que SOT et la prise en charge des femmes enceintes et enfants.
+            </br></br>
+                <i>Mon rôle en tant que chiropracteur :</i></br>
+                Mon but est d'écouter et comprendre vos douleurs et vos attentes, mais également de vous expliquer vos douleurs, leurs conséquences et comment y remédier. 
+                                    
                 </div>
             </div>
             
@@ -201,7 +206,7 @@
             </br></br><b><a href="https://vimeo.com/82379771" style="cursor: pointer">Pour en savoir plus, voici une vidéo explicative.</a></b>
         
 
-        </br></br>Mais à qui s'adresse la chiropraxie ? <b>À tous !</b> 
+        </br></br>Mais à qui s'adresse la chiropraxie ? <b>La chiropraxie s'adresse à tous !</b> 
         <ul>
             <li><b>Les nourrissons :</b> pour leur permettre de bien démarrer dans la vie et de reduire les stress perçus lors de l’accouchement.</li>
             <li><b>Les enfant :</b> pour libérer les tensions pour qu’ils puissent grandir et s’épanouir.</li>
@@ -234,7 +239,9 @@
                     </br>
                         Toutes ses causes créent des dysfonctionnements dans le corps pouvant générer des douleurs qui à terme engendrent de : L'arthrose, une altération des muscles et ligaments, des disques endommagés, des nerfs irrités…
                     </br></br>
-                    Les principaux symptômes traités en chiropraxie sont :
+                    </div>
+                    <div class="__header2">Les principaux symptômes traités en chiropraxie sont :</div>
+                    <div class="__text">
                     <ul>
                         <li>Les douleurs de dos (lombalgies, dorsalgies, cervicalgies...)</li>
                         <li>Les douleurs des articulations périphériques (douleurs de genoux, épaules, chevilles, coudes, poignets...)</li>
