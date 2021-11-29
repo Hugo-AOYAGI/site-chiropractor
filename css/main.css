@@ -940,6 +940,7 @@
 
 .cabinet-page .cabinet-img {
   width: 60%;
+  height: auto;
   border: 2px solid #8691b7;
   margin-bottom: 3em;
 }
@@ -952,6 +953,9 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
   -ms-flex-pack: distribute;
       justify-content: space-around;
   padding: 0 2em 0 2em;
