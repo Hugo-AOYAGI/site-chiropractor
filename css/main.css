@@ -217,6 +217,11 @@
   .title-box .__title-div-right {
     width: 85%;
   }
+  .contact-icons {
+    bottom: .5em;
+    right: 0.5em;
+    color: white;
+  }
 }
 
 .upper-menu-btn {
