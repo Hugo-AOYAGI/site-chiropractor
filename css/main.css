@@ -7,7 +7,7 @@
   height: 100vh;
   width: 50vw;
   z-index: -1;
-  background: center/cover url("/assets/banner.JPEG");
+  background: center/cover url("/assets/banner1.jpg");
 }
 
 .title-box {
@@ -209,7 +209,7 @@
     position: absolute;
     height: 100vh;
     width: 100vw;
-    background: center/cover url("/assets/banner.JPEG");
+    background: center/cover url("/assets/banner1.jpg");
   }
   .title-box .__title-div-left {
     width: 85%;
